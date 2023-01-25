@@ -16,7 +16,11 @@ function App() {
           Sarah Barter
         </a>{" "}
         and open-sourced on{" "}
-        <a href="/" target="_blank" rel="noreferrer">
+        <a
+          href="https://github.com/barty-s/react_dictionary_app"
+          target="_blank"
+          rel="noreferrer"
+        >
           GitHub
         </a>
       </footer>
