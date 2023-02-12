@@ -5,7 +5,8 @@ form {
 .Dictionary section {
   background: white;
   border-radius: 5px;
-  padding: 20px;
+  padding: 15px;
+  margin: 10px 0 10px;
 }
 
 input {
@@ -18,4 +19,10 @@ input {
 
 input:focus {
   outline: #dddd;
+}
+
+@media (max-width: 900px) {
+  input {
+    width: 90%;
+  }
 }

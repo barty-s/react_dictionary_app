@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-
   max-width: 1000px;
   margin: 50px auto;
 }
@@ -25,4 +24,10 @@ footer a {
 }
 footer a:hover {
   font-weight: bold;
+}
+
+@media (max-width: 900px) {
+  .App {
+    margin: 0 auto;
+  }
 }

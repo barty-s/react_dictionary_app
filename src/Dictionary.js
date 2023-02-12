@@ -29,7 +29,7 @@ export default function Dictionary() {
 
     let pexelsApiKey =
       "ZP90cJ165CKbmnWG0mdx0m6Z1vRerU7GPnJVqxczNXSOVIqHinp8PeKv";
-    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=6`;
+    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=9`;
     let headers = { Authorization: `Bearer ${pexelsApiKey}` };
     axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
   }
@@ -42,7 +42,7 @@ export default function Dictionary() {
             type="search"
             autoFocus={true}
             onChange={handleKeywordChange}
-            placeholder="Search a word here..."
+            placeholder="Search for a word here..."
           />
         </form>
       </section>
