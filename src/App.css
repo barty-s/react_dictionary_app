@@ -1,6 +1,8 @@
 .App {
   text-align: center;
-  margin-top: 50px;
+
+  max-width: 1000px;
+  margin: 50px auto;
 }
 .container {
   background: radial-gradient(
