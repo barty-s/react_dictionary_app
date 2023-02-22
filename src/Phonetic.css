@@ -1,9 +1,9 @@
 .Phonetic {
-  height: 55px;
+  height: 50px;
 }
 
-.Phonetic a {
-  border: 1px solid #ddd;
+.audio {
+  border: 1px solid #ee9494;
   text-decoration: none;
   padding: 10px 20px;
   font-size: 12px;
@@ -11,9 +11,10 @@
   margin-right: 10px;
   border-radius: 20px;
   transition: all 150ms ease-in-out;
+  color: #ee9494;
 }
 
-.Phonetic a:hover {
+.audio:hover {
   background: #ee9494;
   color: white;
 }
